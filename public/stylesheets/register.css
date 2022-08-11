@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(23, 225, 40);
+    height: 85px;
+}
+.header-logo h1 {
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    float: left;
+}
+.header-logo span {
+    color: white;
+    font-size: 50px;
+}
+.header-logo2 {
+    color: white;
+    font-size: 30px;
+    float: right;
+    padding: 33px 50px 0px 0px;
+}
