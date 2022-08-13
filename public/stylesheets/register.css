@@ -1,6 +1,7 @@
 .header {
     background-color: rgb(23, 225, 40);
     height: 85px;
+    margin-bottom: 50px;
 }
 .header-logo h1 {
     color: white;
@@ -17,4 +18,28 @@
     font-size: 30px;
     float: right;
     padding: 33px 50px 0px 0px;
+}
+
+.form {
+    font-size: 21px;
+}
+.form-mail label {
+    padding: 0px 20px 0px 25px;
+}
+.form-mail input {
+    padding: 4px 10px 0px 25px;
+}
+.form-password {
+    float: left;
+    margin-top: 10px;
+}
+.form-password label {
+    padding: 0px 61px 0px 25px;
+}
+.form-password input {
+    margin-right: 20px;
+    padding: 4px 11px 0px 25px;
+}
+.form-box {
+    margin-top: 13px;
 }
