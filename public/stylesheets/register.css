@@ -17,7 +17,7 @@
     color: white;
     font-size: 30px;
     float: right;
-    padding: 33px 50px 0px 0px;
+    padding: 33px 50px 0px 5px;
 }
 
 .form {
@@ -27,7 +27,7 @@
     padding: 0px 20px 0px 25px;
 }
 .form-mail input {
-    padding: 4px 10px 0px 25px;
+    padding: 4px 10px 0px 5px;
 }
 .form-password {
     float: left;
@@ -38,7 +38,7 @@
 }
 .form-password input {
     margin-right: 20px;
-    padding: 4px 11px 0px 25px;
+    padding: 4px 11px 0px 5px;
 }
 .form-box {
     margin-top: 13px;
