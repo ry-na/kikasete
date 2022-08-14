@@ -6,12 +6,7 @@
     <link rel='stylesheet' href='/stylesheets/login.css' />
   </head>
   <body>
-    <div class="header">
-        <div class="header-logo">
-                <h1><span>きかせて</span> にようこそ！</h1>
-        </div>
-        <div class="header-logo2">ログイン</div>
-    </div>
+    <%- include( 'components/_header.ejs',{ rightup: 'ログイン' } ); %>
     <div class="form">
       <div class="form-mail">
         <label for="mail">メールアドレス</label>
