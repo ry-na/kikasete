@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  kikasete_db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: kikasete
+    ports:
+      - '3306:3306'
+    volumes:
+      - my_volume:/var/lib/mysql
+
+volumes:
+  my_volume:
