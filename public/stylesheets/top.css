@@ -1,45 +1,113 @@
-.header {
-    background-color: ＃ffaa51;
-    height: 85px;
-    margin-bottom: 50px;
+body {
+    margin: 0px;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+header {
+    background-color: #ffc175;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
 }
+
+.container {
+    background-color: ;
+    background-size: cover;
+}
+
 .header-logo h1 {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 20px;
     float: left;
 }
-.header-logo span {
-    color: white;
-    font-size: 50px;
-}
-.header-logo2 {
-    color: white;
-    font-size: 30px;
-    float: right;
-    padding: 33px 50px 0px 0px;
+
+.catchcopy {
+    padding-top: 120px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 .form {
-    font-size: 21px;
+    text-align: center;
+    border-bottom: 2px solid #dee7ec;
+    margin-left: 110px;
+    margin-right: 110px;
 }
-.form-mail label {
-    padding: 0px 20px 0px 25px;
+
+.form h2 {
+    font-size: 160px;
+    margin: 0px;
 }
-.form-mail input {
-    padding: 4px 10px 0px 25px;
+
+.newaccount {
+    color: white;
+    font-size: 25px;
+    padding: 8px 35px;
+    display: inline-block;
+    background-color: #e3364a;
+    box-shadow: 0 5px 0 #ca1c30;
+    border-radius: 30px;
+    margin: 50px 0px 70px 0px;
+    text-decoration: none;
 }
-.form-password {
-    float: left;
-    margin-top: 10px;
+
+.newaccount:active {
+    box-shadow: none;
+    transform: translateY(5px);
 }
-.form-password label {
-    padding: 0px 61px 0px 25px;
+
+
+
+.twitterlogin {
+    height: 150px;
+    text-align: center;
+
 }
-.form-password input {
-    margin-right: 20px;
-    padding: 4px 11px 0px 25px;
+
+.twitterlogin p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 50px;
 }
-.form-box {
-    margin-top: 13px;
+
+.twitter {
+    background-color: #55acee;
+    padding: 8px 35px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
+.twitter:hover {
+    opacity: 1;
+}
+
+.manual {
+    text-align: center;
+    height: 1200px;
+    background-color: #f5ecec;
+}
+
+.manual h3 {
+    font-size: 400px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #ffffff;
+    height: 65px;
+    width: 100%;
+}
+
+.footer-logo h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin: 0px;
 }
