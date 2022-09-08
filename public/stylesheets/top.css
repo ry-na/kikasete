@@ -14,7 +14,6 @@ header {
 }
 
 .container {
-    background-color: ;
     background-size: cover;
 }
 
@@ -44,7 +43,7 @@ header {
     margin: 0px;
 }
 
-.newaccount {
+.new-account {
     color: white;
     font-size: 25px;
     padding: 8px 35px;
@@ -56,20 +55,20 @@ header {
     text-decoration: none;
 }
 
-.newaccount:active {
+.new-account:active {
     box-shadow: none;
     transform: translateY(5px);
 }
 
 
 
-.twitterlogin {
+.twitter-login {
     height: 150px;
     text-align: center;
 
 }
 
-.twitterlogin p {
+.twitter-login p {
     font-size: 18px;
     font-weight: 300;
     margin-top: 50px;
