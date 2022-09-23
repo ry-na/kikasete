@@ -1,45 +1,61 @@
-.header {
-    background-color: rgb(23, 225, 40);
-    height: 85px;
-    margin-bottom: 50px;
+body {
+    margin: 0px;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+header {
+    background-color: #ffc175;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
 }
+
+.container {
+    background-size: cover;
+}
+
 .header-logo h1 {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 20px;
     float: left;
 }
-.header-logo span {
-    color: white;
-    font-size: 50px;
-}
-.header-logo2 {
-    color: white;
-    font-size: 30px;
-    float: right;
-    padding: 33px 50px 0px 5px;
-}
 
 .form {
-    font-size: 21px;
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
 }
-.form-mail label {
-    padding: 0px 20px 0px 25px;
+
+.form h2 {
+    font-size: 160px;
+    margin-top: 180px;
 }
-.form-mail input {
-    padding: 4px 10px 0px 5px;
+
+
+.acc-create {
+    height: 200px;
+    text-align: center;
+
 }
-.form-password {
-    float: left;
-    margin-top: 10px;
+
+.acc-create p {
+    font-size: 30px;
+    font-weight: 500;
 }
-.form-password label {
-    padding: 0px 61px 0px 25px;
+
+footer {
+    background-color: #ffffff;
+    height: 65px;
+    width: 100%;
 }
-.form-password input {
-    margin-right: 20px;
-    padding: 4px 11px 0px 5px;
-}
-.form-box {
-    margin-top: 13px;
+
+.footer-logo h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin: 0px;
 }
