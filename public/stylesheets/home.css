@@ -12,16 +12,26 @@ header {
     z-index: 10;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
 }
-
-.container {
-    background-size: cover;
-}
-
 .header-logo h1 {
     color: white;
     font-size: 30px;
     padding-left: 20px;
     float: left;
+}
+
+.container {
+    background-size: cover;
+}
+
+.profile {
+    height: 350px;
+    margin-top: 150px;
+}
+
+.profile h1 {
+    font-size: 100px;
+    text-align: center;
+
 }
 
 
@@ -38,3 +48,4 @@ footer {
     padding-top: 12px;
     margin: 0px;
 }
+
