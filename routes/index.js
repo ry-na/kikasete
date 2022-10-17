@@ -14,4 +14,8 @@ router.get('/register', function(req, res, next) {
   res.render('register');
 });
 
+router.get('/kansou', function(req, res, next) {
+  res.render('kansou');
+});
+
 module.exports = router;
