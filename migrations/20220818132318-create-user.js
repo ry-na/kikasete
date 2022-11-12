@@ -8,10 +8,16 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      twitter_id: {
+        type: Sequelize.STRING
+      },
       name: {
         type: Sequelize.STRING
       },
-      password: {
+      screen_name: {
+        type: Sequelize.STRING
+      },
+      profile_image_url_https: {
         type: Sequelize.STRING
       },
       created_at: {

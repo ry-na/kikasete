@@ -13,12 +13,15 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
+
   user.init({
     name: DataTypes.STRING,
-    password: DataTypes.STRING
+    twitter_id: DataTypes.STRING,
+    screen_name: DataTypes.STRING,
+    profile_image_url_https: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'user',
+    modelName: 'User',
     underscored: true,
   });
   return user;
