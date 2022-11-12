@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+
+header {
+    background-color: #ffc175;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+    background-size: cover;
+}
+
+.header-logo h1 {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    float: left;
+}
+
+.catchcopy {
+    padding-top: 120px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.form {
+    text-align: center;
+    border-bottom: 2px solid #dee7ec;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.form h2 {
+    font-size: 160px;
+    margin: 0px;
+}
+
+.new-account {
+    color: white;
+    font-size: 25px;
+    padding: 8px 35px;
+    display: inline-block;
+    background-color: #e3364a;
+    box-shadow: 0 5px 0 #ca1c30;
+    border-radius: 30px;
+    margin: 50px 0px 70px 0px;
+    text-decoration: none;
+}
+
+.new-account:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+
+
+.twitter-login {
+    height: 150px;
+    text-align: center;
+
+}
+
+.twitter-login p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.twitter {
+    background-color: #55acee;
+    padding: 8px 35px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
+.twitter:hover {
+    opacity: 1;
+}
+
+.manual {
+    text-align: center;
+    height: 1200px;
+    background-color: #f5ecec;
+}
+
+.manual h3 {
+    font-size: 400px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #ffffff;
+    height: 65px;
+    width: 100%;
+}
+
+.footer-logo h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 12px;
+    margin: 0px;
+}
