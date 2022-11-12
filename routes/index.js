@@ -10,5 +10,8 @@ router.get('/', function(req, res, next) {
 
 router.get('/register', registerController.index);
 router.get('/mypage', mypageController.index);
+router.get('/top', function(req, res, next) {
+  res.render('top');
+});
 
 module.exports = router;
